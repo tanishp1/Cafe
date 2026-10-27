@@ -20,6 +20,7 @@ export default function Hours(){
         <section className="section hours" id="hours">
             <div className="wrap hours-grid">
                 <div>
+                    <p className="section-label">We're open</p>
                     <h2>Opening hours</h2>
                     <p className="section-sub">Walk-ins are always welcome. Order ahead to skip the wait.</p>
                     <OpenStatus className="status-dark"/>

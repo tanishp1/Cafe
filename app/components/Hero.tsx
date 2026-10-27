@@ -7,20 +7,24 @@ export default function Hero() {
     <section className="hero" id="top">
       <div className="wrap hero-grid">
         <div className="hero-copy">
+          <div className="hero-eyebrow">☕ Koregaon Park, Pune</div>
           <OpenStatus className="status-light" />
-          <h1>{cafe.tagline}</h1>
+          <h1>
+            Slow chai.<br />
+            <em>Fast friends.</em>
+          </h1>
           <p className="lead">{cafe.description}</p>
           <div className="hero-actions">
             <a className="btn btn-saffron" href="#menu">
-              See the menu
+              See the menu →
             </a>
             <a
               className="btn btn-ghost"
-              href={whatsappUrl(`Hi ${cafe.name} ! I have a question `)}
+              href={whatsappUrl(`Hi ${cafe.name}! I have a question.`)}
               target="_blank"
               rel="noopener noreferrer"
             >
-              Chats on whatsapp
+              Chat on WhatsApp
             </a>
           </div>
         </div>
@@ -31,6 +35,14 @@ export default function Hero() {
             width="600"
             height="600"
           />
+          <div className="hero-art-badge">
+            <span style={{ fontSize: "1.6rem" }}>🌿</span>
+            <div>
+              <strong>Hand-pulled chai</strong>
+              <br />
+              <span>Fresh every morning</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>

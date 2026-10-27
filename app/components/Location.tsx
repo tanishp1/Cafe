@@ -5,9 +5,10 @@ export default function Location() {
   const directions = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(cafe.mapQuery)}`;
 
   return (
-    <section className="section" id="find-us">
+    <section className="section location" id="find-us">
       <div className="wrap location-grid">
         <div className="location-info">
+          <p className="section-label">Visit us</p>
           <h2>Find us</h2>
           <address>
             {cafe.address.map((line) => (

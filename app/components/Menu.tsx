@@ -53,8 +53,9 @@ export default function Menu(){
     return (
         <section className="section" id="menu">
             <div className="wrap">
+                <p className="section-label">What we serve</p>
                 <h2>Our Menu</h2>
-                <p className="section-sub">Tap add build your order, and send it to us  on whatsapp</p>
+                <p className="section-sub">Tap to build your order, then send it to us on WhatsApp — skip the queue.</p>
                 <div className="tabs" role="group" aria-label="Menu categories">
                     {[{ id: "all", name: "All"}, ...categories].map((c)=> (
                         <button key={c.id} type="button" className="tab" aria-pressed={active === c.id}
